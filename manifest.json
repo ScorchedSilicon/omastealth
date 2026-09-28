@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "muchmore.omastealth",
+  "name": "OmaStealth",
+  "version": "0.1.0",
+  "author": "Heath Muchmore",
+  "license": "MIT",
+  "description": "Night stealth bombing sorties in the F-117A. UHF/VHF bloom, IRADS clouds, and an 8-60-8 laser cycle. An Omarchy arcade campaign.",
+  "kinds": ["overlay", "bar-widget"],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "Overlay.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "OmaStealth",
+    "category": "Games",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

@@ -1,0 +1,6 @@
+.DS_Store
+*.qmlc
+*.jsc
+node_modules/
+.idea/
+.vscode/
